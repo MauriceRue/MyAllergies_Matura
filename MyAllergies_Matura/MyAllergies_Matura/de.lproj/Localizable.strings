@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  MyAllergies_Matura
+
+  Created by Maurice Ruefenacht on 12.12.2023.
+  
+*/
+
+"Meine Allergien" = "Meine Allergien";
+"Cashewnüsse"= "Cashewnüsse";
+"Cashewnuss"= "Cashewnuss";
+"Eier"= "Eier";
+"Erdnüsse"= "Erdnüsse";
+"Erdnuss"= "Erdnuss";
+"Fisch"= "Fisch";
+"Fische"= "Fische";
+"Glutenhaltiges Getreide"= "Glutenhaltiges Getreide";
+"Weizen"= "Weizen";
+"Roggen"= "Roggen";
+"Gerste"= "Gerste";
+"Dinkel"= "Dinkel";
+"Hafer"= "Hafer";
+"Haselnüsse"= "Haselnüsse";
+"Haselnuss"= "Haselnuss";
+"Kaschunüsse" = "Kaschunüsse";
+"Kaschunuss" = "Kaschunuss";
+"Krebstiere"= "Krebstiere";
+"Laktose"= "Laktose";
+"Milch"= "Milch";
+"Lupinen"= "Lupinen";
+"Macadamianüsse"= "Macadamianüsse";
+"Macadamianuss"= "Macadamianuss";
+"Queenslandnüsse"= "Queenslandnüsse";
+"Queenslandnuss"= "Queenslandnuss";
+"Mandeln"= "Mandeln";
+"Paranüsse"= "Paranüsse";
+"Paranuss"= "Paranuss";
+"Pekannüsse"= "Pekannüsse";
+"Pekannuss"= "Pekannuss";
+"Pistazien"= "Pistazien";
+"Schwefeldioxid und Sulfite"= "Schwefeldioxid und Sulfite";
+"Sellerie"= "Sellerie";
+"Senf"= "Senf";
+"Sesamsamen"= "Sesamsamen";
+"Sojabohnen"= "Sojabohnen";
+"Edamame"= "Edamame";
+"Walnüsse"= "Walnüsse";
+"Walnuss"= "Walnuss";
+"Weichtiere"= "Weichtiere";
+"Tintenfische"= "Tintenfische";
+"Oktopus"= "Oktopus";
+"Speichern" = "Speichern";
+"Drücke Check nach dem Scan" = "Drücke Check nach dem Scan";
+"Status" = "Status";
+"Scan QR-Code" = "Scan QR-Code";
+"Check" = "Check";
+"success" = "Erfolg";
+"failed" = "Fehlgeschlagen";
+"Du bist allergisch." = "Du bist allergisch.";
+"Du bist nicht allergisch." = "Du bist nicht allergisch.";
+"Scan hat nicht funktioniert." = "Scan hat nicht funktioniert.";
+"Scan wurde noch nicht gemacht." = "Scan wurde noch nicht gemacht.";
+"Drücke nun auf Check." = "Drücke nun auf Check.";
+"Generieren" = "Generieren";
+"QR Code Generator" = "QR-Code Generator";
+"Geschafft!" = "Geschafft!";
+"Der QR-Code wurde in deiner Foto Mediathek gespeichert." = "Der QR-Code wurde in deiner Foto-Mediathek gespeichert.";
+"Oops!" = "Oops!";
+"Es ist ein Fehler aufgetreten." = "Es ist ein Fehler aufgetreten.";
+"Diese App braucht Zugriff auf das Hinzufügen von Bildern in die Mediathek." = "Diese App benötigt Zugriff; um Bilder in die Mediathek hinzuzufügen.";
+"Ok" = "Ok";
+"Öffne Einstellungen" = "Öffne Einstellungen";
+"Generiere einen eigenen QR-Code" = "Generiere einen eigenen QR-Code";

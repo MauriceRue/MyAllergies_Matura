@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  MyAllergies_Matura
+
+  Created by Maurice Ruefenacht on 12.12.2023.
+  
+*/
+
+
+"Meine Allergien" = "My Allergies";
+"Cashewnüsse"= "Cashewnuts";
+"Cashewnuss"= "Cashewnut";
+"Eier"= "Eggs";
+"Erdnüsse"= "Peanuts";
+"Erdnuss"= "Peanut";
+"Fisch"= "Fish";
+"Fische"= "Fish";
+"Glutenhaltiges Getreide"= "Cereals containing gluten";
+"Weizen"= "Wheat";
+"Roggen"= "Rye";
+"Gerste"= "Barley";
+"Dinkel"= "Spelt";
+"Hafer"= "Oats";
+"Haselnüsse"= "Hazelnuts";
+"Haselnuss" = "Hazelnut";
+"Kaschunüsse" = "Cashewnuts";
+"Kaschunuss" = "Cashewnut";
+"Krebstiere"= "Crustaceans";
+"Laktose"= "Lactose";
+"Milch"= "Milk";
+"Lupinen"= "Lupin";
+"Macadamianüsse"= "Macadamia nuts";
+"Macadamianuss"= "Macadamia nut";
+"Queenslandnüsse"= "Queensland nuts";
+"Queenslandnuss"= "Queensland nut";
+"Mandeln"= "Almonds";
+"Paranüsse"= "Brazil nuts";
+"Paranuss"= "Brazil nut";
+"Pekannüsse"= "Pecan nuts";
+"Pekannuss"= "Pecan nut";
+"Pistazien"= "Pistacihio nuts";
+"Schwefeldioxid und Sulfite"= "Sulphur dioxide and sulphites";
+"Sellerie"= "Celery";
+"Senf"= "Mustard";
+"Sesamsamen"= "Sesame seeds";
+"Sojabohnen"= "Soybeans";
+"Edamame"= "Edamame";
+"Walnüsse"= "Walnuts";
+"Walnuss"= "Walnut";
+"Weichtiere"= "Molluscs";
+"Tintenfische"= "Squid";
+"Oktopus"= "Octopus";
+"Speichern" = "Save";
+"Drücke Check nach dem Scan" = "Press Check after scan";
+"Status" = "Status";
+"Scan QR-Code" = "Scan QR-Code";
+"Check" = "Check";
+"success" = "success";
+"failed" = "failed";
+"Du bist allergisch." = "You are allergic.";
+"Du bist nicht allergisch." = "You are not allergic";
+"Scan hat nicht funktioniert." = "Scan did not work.";
+"Scan wurde noch nicht gemacht." = "Scan hasn't been done yet.";
+"Drücke nun auf Check." = "Now press Check.";
+"Generieren" = "Generate";
+"QR Code Generator" = "QR-Code Generator";
+"Geschafft!" = "Done!";
+"Der QR-Code wurde in deiner Foto Mediathek gespeichert." = "The QR-code has been successfully exported to your library." ;
+"Oops!" = "Oops!";
+"Es ist ein Fehler aufgetreten." = "An Error occurred";
+"Diese App braucht Zugriff auf das Hinzufügen von Bildern in die Mediathek." = "This App needs permission to add photos to your library.";
+"Ok" = "Ok";
+"Öffne Einstellungen" = "Open Settings";
+"Generiere einen eigenen QR-Code" = "Generate your own QR-Code";

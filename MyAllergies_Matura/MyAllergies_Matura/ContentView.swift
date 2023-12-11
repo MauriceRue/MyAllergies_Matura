@@ -1,15 +1,10 @@
 //
 //  ContentView.swift
-//  MyAllergies_Matura_26Okt23
+//  MyAllergies_Matura
 //
-//  Created by Maurice Ruefenacht on 26.10.2023.
+//  Created by Maurice Ruefenacht on 12.12.2023.
 //
-
-
-
-
-
-
+//  Code stammt teils vom Entwickler Paul Hudson (CodeScanner) und von der Entwicklerin Ale Patron (für den QR-Code Generator)
 
 
 import SwiftUI
@@ -236,15 +231,17 @@ struct View_PersonalAllergies: View {
                     if value {
                         personalAllergyCode.append(index)
                         
-                        //falls ein Allergen den Status "true" trägt, wird der jeweilige Index an den personalAllergyCode angehängt.(Für jeden "Index", der "Value" hat, wird das entsprechende "Element" angehängt.) Resultat ist ein Array bestehend aus den Indexen der ausgewählten Allergenen.
+                        //  Falls ein Allergen den Status "true" trägt, wird der jeweilige Index an den personalAllergyCode angehängt.(Für jeden "Index", der "Value" hat, wird das entsprechende Element angehängt.) Resultat ist ein Array, bestehend aus den Indexen der ausgewählten Allergene.
                     }
                 }
                         if let encodedData = try? JSONEncoder().encode(personalAllergyCode) {
                             UserDefaults.standard.set(encodedData, forKey: itemsKey)
-                            //Die Daten werden zuerst encoded und dann mithilfe von UserDefaults gespeichert.
-                            //Dies ist hier notwendig, obwohl simple Arrays wie der ArrayOfAllergenIndexState (Array aus Bool-Werten) einfach gespeichert werden können, da dies hierbei für die Spätere Verwendung beim scannen des codes Bedeutung hat.
+                            //  Die Daten werden zuerst encoded (kodiert) und dann mithilfe von UserDefaults gespeichert.
+                            //  Dies ist hier notwendig, da dies hierbei für die spätere Verwendung beim Scannen des Codes Bedeutung hat.
                         }
                     }
+    
+    
     
     
     
@@ -562,7 +559,7 @@ struct View_Generator: View {
            } else {
                return arrayOfAllergens.filter { allergen in
                    
-                   //  Nun wird für jedes einzelne Allergen getestet ob auch andere mögliche Synonyme mit der Liste übereinstimmen. Zuerst wird von jedem Allergen der Index abgerufen. Für diesen jeweiligen Index, wird dann der Array mit den Synonymen aus dem "übergeordneten" Array (localizedAlternativeTerms) bestimmt. Dieser wird für jedes Synonym (term) anschliessend darauf geprüft, ob er das Suchresultat enthält. Dieser Vergleich geschieht ohne auf Gross- oder Kleinschreibung zu achten. (localizedCaseInsensitive)
+                   //  Nun wird für jedes einzelne Allergen getestet, ob auch andere mögliche Synonyme mit der Liste übereinstimmen. Zuerst wird von jedem Allergen der Index abgerufen. Für diesen jeweiligen Index wird dann der Array mit den Synonymen aus dem "übergeordneten" Array (localizedAlternativeTerms) bestimmt. Dieser wird für jedes Synonym (term) anschliessend darauf geprüft, ob er das Suchresultat enthält. Dieser Vergleich geschieht ohne auf Gross- oder Kleinschreibung zu achten. (localizedCaseInsensitive)
                    
                    let allergenIndex = arrayOfAllergens.firstIndex(of: allergen) ?? 0
                    let allergenAlternatives = localizedAlternativeTerms[allergenIndex]
@@ -743,7 +740,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
         
-        // Das dient nur zum Wechsel der Sprache in der ContentView Preview.
+        
     }
 }
 
